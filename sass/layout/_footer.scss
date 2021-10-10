@@ -2,21 +2,5 @@ footer {
     font-size: 14px;
     line-height: 1.7;
     color: var(--white-text-color);
-    position: absolute;
     background: var(--background-color);
-    left: 0px;
-    right: 0px;
-    height: 252px;
-  }
-  
-.footer-bot-container {
-    flex-basis: calc((100% - 30px) / 2);
-    margin-right: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin-right: -30px;
-    margin-bottom: -30px;
-    padding-top: 60px;
-    padding-bottom: 60px;
   }

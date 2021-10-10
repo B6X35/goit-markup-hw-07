@@ -4,24 +4,25 @@
     list-style: none;
     margin-right: -30px;
     margin-bottom: -30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   
-  .footer-logo-adre {
-    flex-basis: calc((100% - 30px) / 2);
+  .footer-bot-container {
+    flex-basis: calc((50% - 45px) / 2);
+    margin-right: 30px;
     text-decoration: none;
   }
   
   .footer-social {
-    flex-basis: calc((100% - 30px) / 2);
+    flex-basis: calc((50% - 45px) / 2);
+    margin-right: 30px;
     display: flex;
     flex-direction: column;
   }
   
   .footer-bot-email {
-    flex-basis: calc((100% - 30px) / 2);
-    flex-grow: 2;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    flex-basis: calc(50% - 15px);
   }
   
   .footer-bot {

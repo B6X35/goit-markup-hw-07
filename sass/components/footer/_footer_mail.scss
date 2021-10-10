@@ -13,6 +13,7 @@
   
   .footer-btn-icon {
     fill: var(--white-text-color);
+    flex-grow: 1;
     margin-left: 10px;
   }
   
@@ -58,6 +59,6 @@
   }
   
   .content {
-    flex-grow: 1;
+    flex-grow: 10;
     margin-right: 12px;
   }

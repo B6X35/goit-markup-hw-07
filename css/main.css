@@ -153,11 +153,10 @@ header {
 }
 
 .header-bot-line {
-  border: none;
-  background-color: var(--top-line-color);
-  height: 1px;
-  margin: 0;
-  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid var(--top-line-color);
+  width: 100%;
 }
 
 .logo-box {
